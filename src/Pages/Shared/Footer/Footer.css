@@ -1,0 +1,60 @@
+.footer{
+    background-color: #444;
+}
+/* ==============
+        common
+================== */
+.color{
+    color: #00b092;
+}
+/* ======================
+        footer top
+========================= */
+.footer-top{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    color: #fff;
+}
+/* ====================
+        footer down
+===================== */
+.footer-down{
+    background-color: #333;
+    color: #fff;
+}
+.footer-down strong{
+    color: #00b092;
+}
+.footer-down-container{
+    display: flex;
+    align-items: center;
+}
+.footer-down-text{
+    flex: 0.8;
+}
+.footer-down-icon{
+    flex: 0.2;
+}
+.footer-icon{
+    width: 35px;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 8px;
+    margin-left: 5px;
+    transition: 0.3s; 
+}
+.footer-icon:hover{
+    border-color: #00b092;
+    background-color: #00b092;
+}
+
+/* ======================
+    responsive
+====================== */
+@media only screen and (max-width: 680px) {
+    .footer-top{
+        display: block;
+    }
+}

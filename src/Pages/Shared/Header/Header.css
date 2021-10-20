@@ -1,0 +1,22 @@
+.header{
+    background-color: #00b092 !important;
+}
+.logout{
+    border: 1px solid #bee7e0;
+    font-weight: 600;
+    padding: 4px 8px 6px 8px;
+    border-radius: 100px;
+    transition: 0.3s;
+}
+.logout:hover{
+    background-color: #cfe9e5;
+    color: #00b092!important;
+}
+.user-header{
+    color: #fff;
+    margin-right: 5px;
+}
+.personIcon{
+    color: #fff;
+    font-size: 25px;
+}

@@ -1,0 +1,14 @@
+.aboutus-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+}
+
+/* ====================
+        responsive
+====================== */
+@media only screen and (max-width: 680px) {
+    .aboutus-container{
+        display: block;
+    }
+}

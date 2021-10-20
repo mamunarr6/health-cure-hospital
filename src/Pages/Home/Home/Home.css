@@ -1,0 +1,53 @@
+/* ===========
+    features
+=============== */
+.features-group{
+    margin-top: 10px;
+    background-color: #00b29109;
+}
+.features{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+.feature{
+    background-color: honeydew;
+    padding: 30px;
+}
+/* ======================
+    patient testimonial 
+========================*/
+.patient-say{
+    background-image:linear-gradient(rgba(10, 10, 10, 0.548), rgba(10, 10, 10, 0.548)),url("https://i.ibb.co/8mr14c2/Healthcare-and-medicine-Medical-and-technology-Doctor-working-on-digital-tablet-on-hospital-backgrou.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.patient-say-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+.btn-regular{
+    background-color: #00b290;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.btn-regular:hover{
+    background-color: gray;
+}
+
+/* ===============
+    responsive
+================= */
+@media only screen and (max-width:680px) {
+    .features{
+        display: block;
+    }
+    .patient-say-container{
+        display: block;
+    }
+}

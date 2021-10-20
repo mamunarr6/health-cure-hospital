@@ -1,0 +1,76 @@
+.doctor{
+    display: flex;
+    margin: 20px 0px;
+}
+.doctor-img{
+    flex: 0.3;
+}
+.doctor-img img{
+    width: 100%;
+}
+.doctor-des{
+    flex: 0.7;
+    padding: 0px 5px 5px 15px;
+}
+.speciality{
+    color: #00b290!important;
+    font-size: 20px;
+    font-weight: 500;
+}
+.doctor-des p{
+    color: #7d7d7d;
+}
+.doctors-contact{
+    display: flex;
+}
+.phone{
+    flex: 0.3;
+}
+.email{
+    flex: 0.4;
+}
+.icons{
+    flex: 0.3;
+}
+.doctors-contact span{
+    color: #00b290;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin: 0px 10px;
+    transition: 0.3s;
+}
+.icon-one{
+    color: #2962ff;
+    border:none;
+}
+.icon-one:hover{
+    background-color: #2962ff;
+    color: white;
+    border: 1px solid #2962ff;
+    padding: 5px;
+}
+.icon-two{
+    color: #00a3e1;
+    border:none;
+}
+.icon-two:hover{
+    background-color: #00a3e1;
+    color: white;
+    border: 2px solid #00a3e1;
+    padding: 5px;
+}
+
+/* =========================
+    responsive
+============================== */
+@media only screen and (max-Width: 680px) {
+    .doctor{
+        display: block;
+    }
+    .doctors-contact{
+        display: block;
+    }
+}
